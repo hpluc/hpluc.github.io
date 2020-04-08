@@ -13,15 +13,17 @@
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
-      {% include header_default.html %}
+      {% include header.html %}
 
       {{ content }}
 
+      {% include contact.html %}
+
       {% include footer.html %}
 
-      {% include scripts.html %}
-
     </div>
+    
+    {% include scripts.html %}
 
   </body>
 
