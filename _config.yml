@@ -21,7 +21,7 @@
 title: H. Plucas
 email: hey@heikoplucas.com
 description: Ideas|Inspiration|Technology I was looking for a way to collect my work, my life, my thoughts and learn new things. For this project I have created this website.
-baseurl: "/hpluc.github.io" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://heikoplucas.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hpluc
 github_username:  hpluc
