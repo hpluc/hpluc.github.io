@@ -11,6 +11,11 @@
 											<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
 											<li><a href="{{ site.baseurl }}/generic.html">Generic</a></li>
 											<li><a href="{{ site.baseurl }}/elements.html">Elements</a></li>
+											{% for post in site.posts %}
+											<li>
+											  <a href="{{ post.url }}">{{ post.title }}</a>
+											</li>
+										  	{% endfor %}
 										</ul>
 									</div>
 								</li>
