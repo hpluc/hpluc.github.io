@@ -448,9 +448,11 @@
 								i.val('');
 
 							}
-
+							
 						});
-
+					$this.find('form').each(function() {
+						this.reset();
+					});						
 				})
 				.on('reset', function(event) {
 
