@@ -10,6 +10,9 @@
   <title>H. Plucas</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name=”description” content=”Ideas|Inspiration|Technology I was looking for a way to collect my work, my life, my thoughts and learn new things. For this project I have created this website.”>
+
+  
 
   <link rel="stylesheet" href="/assets/css/main.css" />
   <noscript><link rel="stylesheet" href=" /assets/css/noscript.css" /></noscript>
@@ -92,7 +95,7 @@
 
 <section>
     <h4>Want to get in contact with me?</h4>
-    <form method="post" action="https://formspree.io/xoqneqky">
+    <form method="post" action="https://formspree.io/xoqneqky" id="contact-form">
         <div class="row gtr-uniform">
             <div class="col-6 col-12-xsmall">
                 <input type="text" name="name" id="demo-name" value="" placeholder="Name" />
@@ -106,7 +109,7 @@
             </div>
             <div class="col-12">
                 <ul class="actions">
-                    <li><input type="submit" value="Send" class="primary" /></li>
+                    <li><input type="submit" value="Send" class="primary" onclick="resetForm()"></li>
                     <li><input type="reset" value="Reset" /></li>
                 </ul>
             </div>
@@ -142,6 +145,7 @@
     </div>
     
     <!-- Scripts -->
+<script src="/assets/js/custom.js"></script>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/jquery.scrollex.min.js"></script>
 <script src="/assets/js/jquery.scrolly.min.js"></script>
@@ -149,6 +153,7 @@
 <script src="/assets/js/breakpoints.min.js"></script>
 <script src="/assets/js/util.js"></script>
 <script src="/assets/js/main.js"></script>
+
 
   </body>
 
