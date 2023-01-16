@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+
+				<!-- Main -->						
+					<article id="main">
+						<header>
+							<h2>Insights | Heiko Plucas</h2>
+							<p>Learning never exhausts the mind. - Leonardo da Vinci</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+				
+										<div style="text-indent:30px;">
+											<h2>Posts</h2>
+									
+											<hr>
+											<ul>
+												<!-- POSTS-->											
+												{% for post in site.posts %}
+												<ul>
+													<li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></li>
+												</ul>
+												{% endfor %}
+											</ul>
+
+										<hr>
+
+							</div>							
+						</section>
+					</article>
